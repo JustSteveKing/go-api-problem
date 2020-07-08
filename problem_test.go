@@ -12,6 +12,7 @@ func TestAPIProblem(t *testing.T) {
 			Detail: "This is a test problem",
 			Status: "123",
 			Code:   "PRO-123",
+			Meta:   &map[string]interface{}{"key": "val"},
 		}
 
 		want := "Test Problem"
@@ -27,6 +28,7 @@ func TestAPIProblem(t *testing.T) {
 			Detail: "This is a test problem",
 			Status: "123",
 			Code:   "PRO-123",
+			Meta:   &map[string]interface{}{"key": "val"},
 		}
 
 		want := "This is a test problem"
@@ -42,6 +44,7 @@ func TestAPIProblem(t *testing.T) {
 			Detail: "This is a test problem",
 			Status: "123",
 			Code:   "PRO-123",
+			Meta:   &map[string]interface{}{"key": "val"},
 		}
 
 		want := "123"
@@ -57,6 +60,7 @@ func TestAPIProblem(t *testing.T) {
 			Detail: "This is a test problem",
 			Status: "123",
 			Code:   "PRO-123",
+			Meta:   &map[string]interface{}{"key": "val"},
 		}
 
 		want := "PRO-123"
@@ -72,6 +76,7 @@ func TestAPIProblem(t *testing.T) {
 			Detail: "This is a test problem",
 			Status: "123",
 			Code:   "PRO-123",
+			Meta:   &map[string]interface{}{"key": "val"},
 		}
 
 		_, err := json.Marshal(&problem)
