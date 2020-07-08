@@ -2,7 +2,7 @@
 
 ![Go](https://github.com/JustSteveKing/go-api-problem/workflows/Go/badge.svg?branch=master)
 
-A simple struct in GoLang for creating APIProblems in your API.
+A simple struct in GoLang for creating API Problems in your API.
 
 
 ## Install
