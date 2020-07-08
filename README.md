@@ -1,5 +1,7 @@
 # Go API Problem
 
+![Go](https://github.com/JustSteveKing/go-api-problem/workflows/Go/badge.svg?branch=master)
+
 A simple struct in GoLang for creating APIProblems in your API.
 
 
