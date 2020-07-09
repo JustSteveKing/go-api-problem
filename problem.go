@@ -17,5 +17,5 @@ type APIProblem struct {
 	Code string `json:"code,omitempty"`
 
 	// Meta is an object containing none specific meta-details about the problem
-	Meta *map[string]interface{}
+	Meta *map[string]interface{} `json:"meta,omitempty"`
 }
